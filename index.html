@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gallery</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body id="body">
+    <div id="app">
+      <header class="header">
+        <h1 class="logo">Галерея</h1>
+      </header>
+      <main class="main">
+        <form class="controls" id="form">
+          <input
+            type="text"
+            id="image"
+            name="image"
+            class="image"
+            placeholder="Add imgUrl"
+          />
+          <input
+            type="text"
+            id="comment"
+            name="comment"
+            class="input-comm"
+            maxlength="10"
+            placeholder="Add comment"
+          />
+          <button class="button" id="button" type="submit">Добавить</button>
+        </form>
+        <div class="container" id="container"></div>
+      </main>
+      <footer class="footer"><a href="https://github.com/KillReal63/Library">Git</a></footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

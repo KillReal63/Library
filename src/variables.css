@@ -1,0 +1,12 @@
+:root{
+    --module05: 4px;
+    --module1: 8px;
+    --module2: 16px;
+    --module3: 24px;
+    --module4: 40px;
+
+    --bg-color: black;
+    --color-highlight: white;
+    --text-primary: #78938A;
+    --text-secondary: #92BA92;
+}
